@@ -1,0 +1,483 @@
+<!-- 1600 lines of css -->
+<!-- 350 lines of html -->
+<!-- 100 lines of JS -->
+<!-- 20 images expected -->
+<!-- 2050 lines of code -->
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/img/WhatsApp_Image_2023-05-12_at_11.51.33_AM__1_-removebg-preview.png" type="image/x-icon">
+
+        <!--=============== REMIX ICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!-- FIREBASE -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+
+        <title>Hustle Space | Innovate, Connect, Inspire</title>
+    </head>
+    <body>
+        <!--=============== HEADER ===============-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <div class="nav__logo">
+                    <img src="assets/img/complete.png" alt="">
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#specs" class="nav__link">Skills</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#case" class="nav__link">About</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#products" class="nav__link">Works</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#Review" class="nav__link">Reviews</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class="ri-close-line"></i>
+                    </div>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-function-line"></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main">
+            <!--=============== HOME ===============-->
+            <section class="home section" id="home">
+                <div class="home__container container">
+                    <div class="home__img_div">
+                        <img src="assets/img/mockup.png" alt="" class="home__img">
+                    </div>
+                    
+                    <div class="home__data">
+                        <div class="home__header">
+                            <h1 class="home__title">Hustle</h1>
+                            <h2 class="home__subtitle">Space</h2>
+                        </div>
+
+                        <div class="home__footer">
+                            <h3 class="home__title-description">Innovate, Connect, Inspire</h3>
+                            <p class="home__description">Hustle Space is an innovative IT company offering web
+                                development, video & photo editing, app & website
+                                design, VFX, graphic & 3D design services. We connect
+                                and inspire through cutting-edge solutions.
+                            </p>
+                            <a href="assets/img/HustleSpace.mp4" class="button button--flex" download>
+                                <span class="button--flex">
+                                    <i class="ri-shopping-bag-line button__icon"></i></i> Download CV
+                                </span>
+                                <span class="home__price">Free</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!--=============== SPONSOR ===============-->
+            
+            <section class="sponsor section">
+                <div class="sponsor_container container">
+                    <div class="sponser-name">
+                        <i class="ri-youtube-fill"></i>
+                        <a href="https://youtube.com/@HustleSpaceOfficial123?sub_confirmation=1"><h3 class="sponser_name_h3"> YouTube</h3></a>
+                    </div>
+                    <div class="sponser-name">
+                        <i class="ri-discord-fill"></i>
+                        <a href="https://discord.gg/fWxPQZquKA"><h3 class="sponser_name_h3"> Discord</h3></a>
+                    </div>
+                    <div class="sponser-name">
+                        <i class="ri-instagram-fill"></i>
+                        <a href="https://www.instagram.com/hustlespaceofficial/"><h3 class="sponser_name_h3"> Instagram</h3></a>
+                    </div>
+                    <div class="sponser-name">
+                        <i class="ri-twitter-fill"></i>
+                        <a href="https://twitter.com/hustle_sp"><h3 class="sponser_name_h3"> Twitter</h3></a>
+                    </div>
+                </div>
+            </section>
+
+            <!--=============== SPECS ===============-->
+            <section class="specs section " id="specs">
+                <h2 class="section__title section__title-gradient">Skills</h2>
+
+                <div class="specs__container container grid">
+                    <div class="specs__content grid">
+                        <div class="specs__data">
+                            <i class="ri-code-s-slash-line"></i>
+                            <h3 class="specs__title">Web Development</h3>
+                            <span class="specs__subtitle">From All you have to All you need</span>
+                            <span class="specs__subtitle">Starts from ₹000</span>
+                        </div>
+    
+                        <div class="specs__data">
+                            <i class="ri-movie-2-line"></i>
+                            <h3 class="specs__title">Video Editing</h3>
+                            <span class="specs__subtitle">Fond of crossing Expectations</span>
+                            <span class="specs__subtitle">Starts from ₹000</span>
+                        </div>
+
+                        <div class="specs__data">
+                            <i class="ri-layout-line"></i>
+                            <h3 class="specs__title">Web Designing</h3>
+                            <span class="specs__subtitle">Art is the elimination of the unnecessary.</span>
+                            <span class="specs__subtitle">Starts from ₹000</span>
+                        </div>
+    
+                        <div class="specs__data">
+                            <i class="ri-image-edit-fill"></i>
+                            <h3 class="specs__title">Photo Editing</h3>
+                            <span class="specs__subtitle">Your Dreams and Expectations coming true</span>
+                            <span class="specs__subtitle">Starts from ₹000</span>
+                        </div>
+                    </div>
+                    
+                    <div class="specs-img-container">
+                        <img src="assets/img/avatar.png" alt="" class="specs__img">
+                    </div>
+
+                    
+                </div>
+            </section>
+            <!-- prompt 1 -->
+            <section class="discount first-prompt section">
+                <div class="discount__container first-prompt-container container grid">
+                    <div class="discount__animate first-prompt-text">
+                        <h2 class="discount__title">Book an Appointment<br> With the Experts of Hustle Space</h2>
+                        <p class="discount__description">Get most of thing at an affordable price including Web Development,  Video Editing, Web Desinging, Photo Editing at Hustle Space <br><br> Innovate, Connect, Inspire Send us your Email</p>
+                        <a href="#footer" class="button button--flex">
+                            <i class="ri-shopping-bag-line button__icon"></i> Contact Hustle Space
+                        </a>
+                    </div>
+                    <div class="image-first-prompt-container">
+                        <img src="assets/img/discount.png" alt="" class="discount__img">
+                    </div>
+                </div>
+            </section>
+            <!--=============== CASE ===============-->
+            <section class="case section grid" id="case">
+                <h2 class="section__title section__title-gradient">About</h2>
+
+                <div class="case__container container grid">
+                    <div class="about-img-container">
+                        <img src="assets/img/coding mockup.png" alt="" class="case__img">
+                    </div>
+
+                    <div class="case__data">
+                        <p class="case__description">Hustle Space is a dynamic IT company that offers a comprehensive range of creative services to businesses and individuals alike. With a focus on innovation, connection, and inspiration, Hustle Space specializes in web development, video editing, photo editing, app development, website designing, VFX, graphic designing, and 3D designing. Their talented team of professionals is dedicated to bringing your vision to life, providing customized solutions that exceed your expectations. Whether you're looking to enhance your online presence, create engaging visual content, or develop cutting-edge applications, Hustle Space has the expertise and creativity to help you succeed.
+                        </p>
+                        <a href="https://youtube.com/@HustleSpaceOfficial123?sub_confirmation=1" class="button button--flex">
+                            <i class="ri-information-line button__icon"></i> Subscribe YouTube
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!--=============== DISCOUNT ===============-->
+            <!-- <section class="discount section">
+                <div class="discount__container container grid">
+                    <div class="discount__animate">
+                        <h2 class="discount__title">Immerse yourself in <br> your music</h2>
+                        <p class="discount__description">Get it now, up to 50% off.</p>
+                        <a href="#" class="button button--flex">
+                            <i class="ri-shopping-bag-line button__icon"></i> Shop Now
+                        </a>
+                    </div>
+
+                    <img src="assets/img/discount.png" alt="" class="discount__img">
+                </div>
+            </section> -->
+
+            <!--=============== PRODUCTS ===============-->
+            <section class="products section" id="products">
+                <h2 class="section__title section__title-gradient products__line">
+                    Works
+                </h2>
+
+                <div class="products__container container grid">
+                    <div class="product-top">
+                        
+                        <article class="products__card">
+                            <div class="products__content">
+                                <img src="assets/img/sushi.png" alt="" class="products__img">
+        
+                                <h3 class="products__title">Sushi Website</h3>
+        
+                                <button class="button button--flex products__button">
+                                    <i class="ri-shopping-bag-line button__icon"></i>
+                                </button>
+                            </div>
+                        </article>
+                        <article class="products__card">
+                            <div class="products__content">
+                                <img src="assets/img/restaurant.png" alt="" class="products__img">
+        
+                                <h3 class="products__title">Restaurant Website</h3>
+        
+                                <button class="button button--flex products__button">
+                                    <i class="ri-shopping-bag-line button__icon"></i>
+                                </button>
+                            </div>
+                        </article>
+                        <article class="products__card">
+                            <div class="products__content">
+                                <img src="assets/img/portfolio.png" alt="" class="products__img">
+        
+                                <h3 class="products__title">Personal Portfolio</h3>
+        
+                                <button class="button button--flex products__button">
+                                    <i class="ri-shopping-bag-line button__icon"></i>
+                                </button>
+                            </div>
+                        </article>
+                        <article class="products__card">
+                            <div class="products__content">
+                                <img src="assets/img/travel.png" alt="" class="products__img">
+        
+                                <h3 class="products__title">Travel Website</h3>
+        
+                                <button class="button button--flex products__button">
+                                    <i class="ri-shopping-bag-line button__icon"></i>
+                                </button>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="product-top">
+                        <article class="products__card">
+                            <div class="products__content">
+                                <img src="assets/img/lucknow.png" alt="" class="products__img">
+        
+                                <h3 class="products__title">City Website</h3>
+        
+                                <button class="button button--flex products__button">
+                                    <i class="ri-shopping-bag-line button__icon"></i>
+                                </button>
+                            </div>
+                        </article>
+                        <article class="products__card">
+                            <div class="products__content">
+                                <iframe src="https://drive.google.com/file/d/1Fcmro9H8mtdcYszeYHMpE7rKBVPgtnJG/preview" allow="autoplay"></iframe>
+        
+                                <h3 class="products__title">Website Trailer Video</h3>
+        
+                                <button class="button button--flex products__button">
+                                    <i class="ri-shopping-bag-line button__icon"></i>
+                                </button>
+                            </div>
+                        </article>
+                        <article class="products__card">
+                            <div class="products__content">
+                                <iframe src="https://drive.google.com/file/d/15tLYAEPSi1shxuVLcXHv_lrx3MKuXMET/preview" allow="autoplay"></iframe>
+        
+                                <h3 class="products__title">VFX Intro Video</h3>
+        
+                                <button class="button button--flex products__button">
+                                    <i class="ri-shopping-bag-line button__icon"></i>
+                                </button>
+                            </div>
+                        </article>
+                        <article class="products__card">
+                            <div class="products__content">
+                                <iframe src="https://drive.google.com/file/d/1DdBYW9qrdh7RwIJZPpUUomk7iMh9GITB/preview" allow="autoplay" ></iframe>
+        
+                                <h3 class="products__title">Blender Intro Video</h3>
+        
+                                <button class="button button--flex products__button">
+                                    <i class="ri-shopping-bag-line button__icon"></i>
+                                </button>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Second prompt section -->
+            <section class="discount second-promt section">
+                <div class="discount__container second-promt-container container grid">
+                    <div class="discount__animate">
+                        <h2 class="discount__title">Want to Contact <br> Hustle Space ?</h2>
+                        <p class="discount__description">Send an email, <br> our Team will reach you within 24h</p>
+                        <form action="" class="footer__form-promt" id="form1">
+                            <input type="email" id="email1" placeholder="Email" class="footer__input-prompt-2">
+                            <button type="submit" class="button button--flex button-promt-2">
+                                <i class="ri-send-plane-line button__icon"></i> Subscribe
+                            </button>
+                        </form>
+                    </div>
+                    <div class="image-second-prompt-container">
+                        <img src="assets/img/discount.png" alt="" class="discount__img">
+                    </div>
+                </div>
+            </section>
+
+            <!--=============== TESTIMONIAL ===============-->
+            <section class="products section" id="Review">
+                <h2 class="section__title section__title-gradient products__line">
+                    Best <br> Reviews
+                </h2>
+
+                <div class="products__container container grid">
+                    <div class="product-top client-top">
+                        <article class=" client-card">
+                            <div class="products__content">
+                                <img src="https://static.vecteezy.com/system/resources/previews/000/439/863/original/vector-users-icon.jpg" alt="" class="products__img client-img">
+        
+                                <h3 class="products__title">Rahul Sharma</h3>
+                                <span class="products__price">$00</span>
+                                <span class="products__price client-work"><br>Hustle Space is an exceptional IT company that delivers innovative and customized solutions. Their talented team brings visions to life with expertise in web development, video editing, app development, and more. With a focus on exceeding expectations, Hustle Space is a go-to choice for businesses and individuals seeking creative and impactful services.</span>
+        
+                                <button class="button button--flex products__button">
+                                    <i class="ri-shopping-bag-line button__icon"></i>
+                                </button>
+                            </div>
+                        </article>
+                        <article class=" client-card">
+                            <div class="products__content">
+                                <img src="https://static.vecteezy.com/system/resources/previews/000/439/863/original/vector-users-icon.jpg" alt="" class="products__img client-img">
+        
+                                <h3 class="products__title">Ashish Mehra</h3>
+                                <span class="products__price">$00</span>
+                                <span class="products__price client-work"><br>Hustle Space exceeded my expectations with their exceptional creativity and expertise. Their team brought my vision to life with their web development and graphic design services. The personalized solutions and dedication to innovation truly set them apart. Highly recommended for anyone seeking top-notch IT services.</span>
+        
+                                <button class="button button--flex products__button">
+                                    <i class="ri-shopping-bag-line button__icon"></i>
+                                </button>
+                            </div>
+                        </article>
+                        <article class="client-card">
+                            <div class="products__content">
+                                <img src="https://static.vecteezy.com/system/resources/previews/000/439/863/original/vector-users-icon.jpg" alt="" class="products__img client-img">
+        
+                                <h3 class="products__title">Sagar Singh</h3>
+                                <span class="products__price">$00</span>
+                                <span class="products__price client-work"><br>Hustle Space is an exceptional IT company that delivers top-notch creative services. Their team's expertise in web development, video editing, app development, and more is truly impressive. They brought my vision to life with customized solutions that exceeded my expectations. Highly recommended for anyone seeking innovative and high-quality IT solutions.</span>
+        
+                                <button class="button button--flex products__button">
+                                    <i class="ri-shopping-bag-line button__icon"></i>
+                                </button>
+                            </div>
+                        </article>
+                        <article class="client-card">
+                            <div class="products__content">
+                                <img src="https://static.vecteezy.com/system/resources/previews/000/439/863/original/vector-users-icon.jpg" alt="" class="products__img client-img">
+        
+                                <h3 class="products__title client-title">Navya Saxena</h3>
+                                <span class="products__price client-work">$00</span>
+                                <span class="products__price client-work"><br>Hustle Space exceeded my expectations with their innovative and creative services. Their talented team brought my vision to life with their expertise in web development, video editing, and graphic design. Their personalized approach and commitment to excellence make them a top choice for anyone seeking to enhance their online presence and visual content.</span>
+        
+                                <button class="button button--flex products__button">
+                                    <i class="ri-shopping-bag-line button__icon"></i>
+                                </button>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--=============== FOOTER ===============-->
+        <footer class="footer section" id="footer">
+            <div class="footer__container container grid">
+                <a href="#" class="footer__logo">
+                    <img src="assets/img/complete.png" alt="">
+                </a>
+    
+                <div class="footer__content">
+                    <h3 class="footer__title">Services</h3>
+    
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">Web Development</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Web Designing</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Video Editing</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Photo Editing</a>
+                        </li>
+                    </ul>
+                </div>
+    
+                <div class="footer__content">
+                    <h3 class="footer__title">Support</h3>
+    
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">Service Help</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Book an appointment</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Contact Hustle Space</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Submit Review</a>
+                        </li>
+                    </ul>
+                </div>
+    
+                <div class="footer__content">
+                    <form action="" class="footer__form" id="form2">
+                        <input type="email" id="email2" placeholder="Email" class="footer__input">
+                        <button type="submit" class="button button--flex">
+                            <i class="ri-send-plane-line button__icon"></i> Subscribe
+                        </button>
+                    </form>
+    
+                    <div class="footer__social">
+                        <a href="https://youtube.com/@HustleSpaceOfficial123?sub_confirmation=1" target="_blank" class="footer__social-link">
+                            <i class="ri-youtube-line"></i>
+                        </a>
+                        <a href="https://discord.gg/fWxPQZquKA" target="_blank" class="footer__social-link">
+                            <i class="ri-discord-line"></i>
+                        </a>
+                        <a href="https://www.instagram.com/hustlespaceofficial/" target="_blank" class="footer__social-link">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+                        <a href="https://twitter.com/hustle_sp" target="_blank" class="footer__social-link">
+                            <i class="ri-twitter-line"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <p class="footer__copy">
+                <a href="https://youtube.com/@HustleSpaceOfficial123?sub_confirmation=1" target="_blank" class="footer__copy-link">&#169; Copyright Hustle Space 2023 | All right Reserved | hustlespaceofficial@gmail.com</a>
+            </p>
+        </footer>
+
+        <!--=============== SCROLL UP ===============-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="ri-arrow-up-s-line scrollup__icon"></i>
+        </a>
+        
+        <!--=============== SCROLL REVEAL ===============-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
